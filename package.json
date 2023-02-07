@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest \"dist/index\"",
     "build": "tsc",
-    "lint": "./node_modules/.bin/eslint ./"
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
   },
   "repository": {
     "type": "git",
